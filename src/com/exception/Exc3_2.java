@@ -13,7 +13,7 @@ public class Exc3_2 {
             process2();
         } catch (NullPointerException e) {
 //            throw new IllegalArgumentException();
-            Throwable cause = e.getCause();
+//            Throwable cause = e.getCause();
             throw new IllegalArgumentException(e);
         }
     }
